@@ -1,7 +1,12 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DollarSign, Users, Home, AlertCircle } from "lucide-react"
+import { useProperty } from "@/contexts/PropertyContext"
 
 export function PropertyStats() {
+  const { currentPropertyData } = useProperty()
+
   return (
     <>
       <Card>
@@ -12,7 +17,7 @@ export function PropertyStats() {
           <DollarSign className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">$45,231.89</div>
+          <div className="text-2xl font-bold">${currentPropertyData.totalRevenue.toLocaleString()}</div>
           <p className="text-xs text-muted-foreground">
             +20.1% from last month
           </p>
@@ -26,7 +31,7 @@ export function PropertyStats() {
           <Home className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">12</div>
+          <div className="text-2xl font-bold">{currentPropertyData.totalProperties}</div>
           <p className="text-xs text-muted-foreground">
             2 added this month
           </p>
@@ -38,7 +43,7 @@ export function PropertyStats() {
           <Users className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">34</div>
+          <div className="text-2xl font-bold">{currentPropertyData.totalTenants}</div>
           <p className="text-xs text-muted-foreground">
             +3 since last month
           </p>
@@ -52,9 +57,9 @@ export function PropertyStats() {
           <AlertCircle className="h-4 w-4 text-muted-foreground" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">4</div>
+          <div className="text-2xl font-bold">{currentPropertyData.pendingPayments}</div>
           <p className="text-xs text-muted-foreground">
-            $5,231 outstanding
+            ${currentPropertyData.pendingAmount} outstanding
           </p>
         </CardContent>
       </Card>

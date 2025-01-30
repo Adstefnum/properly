@@ -12,7 +12,7 @@ const Pricing = () => {
         <div className="flex flex-col text-center w-full mb-20">
           <p className="font-medium text-primary mb-8">Pricing</p>
           <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">
-            Save hours of repetitive code and ship faster!
+            Save hours of repetitive work and get your property finance in order!
           </h2>
         </div>
 
@@ -22,7 +22,7 @@ const Pricing = () => {
               {plan.isFeatured && (
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
                   <span
-                    className={`badge text-xs text-primary-content font-semibold border-0 bg-primary`}
+                    className={`badge text-xs text-primary-content font-semibold border-0 bg-blue-600`}
                   >
                     POPULAR
                   </span>
@@ -31,7 +31,7 @@ const Pricing = () => {
 
               {plan.isFeatured && (
                 <div
-                  className={`absolute -inset-[1px] rounded-[9px] bg-primary z-10`}
+                  className={`absolute -inset-[1px] rounded-[9px] bg-blue-600 z-10`}
                 ></div>
               )}
 
@@ -52,19 +52,15 @@ const Pricing = () => {
                       <p className="relative">
                         <span className="absolute bg-base-content h-[1.5px] inset-x-0 top-[53%]"></span>
                         <span className="text-base-content/80">
-                          ${plan.priceAnchor}
+                          €{plan.priceAnchor}
                         </span>
                       </p>
                     </div>
                   )}
                   <p className={`text-5xl tracking-tight font-extrabold`}>
-                    ${plan.price}
+                    €{plan.price}
+                    /month
                   </p>
-                  <div className="flex flex-col justify-end mb-[4px]">
-                    <p className="text-xs text-base-content/60 uppercase font-semibold">
-                      USD
-                    </p>
-                  </div>
                 </div>
                 {plan.features && (
                   <ul className="space-y-2.5 leading-relaxed text-base flex-1">
@@ -92,7 +88,6 @@ const Pricing = () => {
                   <ButtonCheckout priceId={plan.priceId} />
 
                   <p className="flex items-center justify-center gap-2 text-sm text-center text-base-content/80 font-medium relative">
-                    Pay once. Access forever.
                   </p>
                 </div>
               </div>

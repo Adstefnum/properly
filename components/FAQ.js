@@ -8,14 +8,22 @@ import { useRef, useState } from "react";
 const faqList = [
   {
     question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        <p>You get a complete property finance platform that includes:</p>
+        <ul className="list-disc pl-4">
+          <li>Automated rent collection</li>
+          <li>Automated tax filing</li>
+          <li>Reporting and analytics</li>
+        </ul>
+      </div>
+    ),
   },
   {
-    question: "Can I get a refund?",
+    question: "Do you work with real estate management firms?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        While we currently don&apos;t have specific enterprise plans for real estate management firms, we&apos;re actively exploring partnerships in this space. Please reach out to us to discuss your needs and how we can potentially work together.
       </p>
     ),
   },

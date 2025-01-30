@@ -2,12 +2,12 @@ import themes from "daisyui/src/theming/themes";
 
 const config = {
   // REQUIRED
-  appName: "ShipFast",
+  appName: "Properly",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+    "Properly is a platform that helps you manage your property finance.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "shipfa.st",
+  domainName: "properly.co",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (resend.supportEmail) otherwise customer support won't work.
     id: "",
@@ -22,22 +22,21 @@ const config = {
         priceId:
           process.env.NODE_ENV === "development"
             ? "price_1Niyy5AxyNprDp7iZIqEyD2h"
-            : "price_456",
+            : "price_1Qmll8ArIHEs5qL501bB3c7D",
         //  REQUIRED - Name of the plan, displayed on the pricing page
         name: "Starter",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-        description: "Perfect for small projects",
+        description: "Perfect for small owners",
         // The price you want to display, the one user will be charged on Stripe.
-        price: 79,
+        price: 99,
         // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-        priceAnchor: 99,
+        priceAnchor: 199,
         features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
+          { name: "3 buildings" },
+          { name: "3 users" },
+          { name: "Automated rent collection" },
+          { name: "One click tax document generation" },
+          { name: "Reporting and analytics" },
         ],
       },
       {
@@ -46,19 +45,17 @@ const config = {
         priceId:
           process.env.NODE_ENV === "development"
             ? "price_1O5KtcAxyNprDp7iftKnrrpw"
-            : "price_456",
+            : "price_1Qmll8ArIHEs5qL5pVwesa0P",
         name: "Advanced",
-        description: "You need more power",
-        price: 99,
-        priceAnchor: 149,
+        description: "Perfect for larger owners",
+        price: 199,
+        priceAnchor: 400,
         features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
-          { name: "1 year of updates" },
+          { name: "Unlimited buildings" },
+          { name: "Unlimited users" },
+          { name: "Automated rent collection" },
+          { name: "One click tax document generation" },
+          { name: "Reporting and analytics" },
           { name: "24/7 support" },
         ],
       },

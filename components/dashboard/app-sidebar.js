@@ -17,11 +17,6 @@ const menuItems = [
     href: "/dashboard/finances",
   },
   {
-    title: "Contracts",
-    icon: FileText,
-    href: "/dashboard/contracts",
-  },
-  {
     title: "Tenants",
     icon: Users,
     href: "/dashboard/tenants",

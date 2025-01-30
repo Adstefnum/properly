@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "signup": "Sign Up",
+    "features": "Features",
+    "solutions": "Solutions",
+    "contact": "Contact"
+  },
+  "common": {
+    "switchLanguage": "Switch to Lithuanian"
+  },
+  "hero": {
+    "title": "Manage property finance in minutes, not days.",
+    "description": "No more spreadsheets, manual bookkeeping, or tax filing. We make it easy for private landlords to collect rent, automate bookkeeping, and simplify tax filing - all in one powerful platform.",
+    "imageAlt": "Dashboard Preview"
+  },
+  "problems": {
+    "title": "The problems you face everyday",
+    "subtitle": "It's not your fault, you just have a really bad system to manage your property finances.",
+    "items": [
+      {
+        "title": "Rent Collection",
+        "description": "Travelling to collect rent from every building and not knowing which tenants have paid is a waste of time and energy."
+      },
+      {
+        "title": "Financial Records",
+        "description": "Someone paid into your account, you collected cash, now money is missing and you don't know how."
+      },
+      {
+        "title": "Tax Filing",
+        "description": "You didn't keep proper financial records and now filing taxes is a problem."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "The Properly Difference: do things properly",
+    "withProperly": {
+      "title": "With Properly",
+      "items": [
+        "Automated rent collection and reminders",
+        "Real-time financial tracking and reporting",
+        "One-click tax document generation",
+        "Smart analytics and insights"
+      ]
+    },
+    "withoutProperly": {
+      "title": "Without Properly",
+      "items": [
+        "Manual rent tracking and late payment follow-ups",
+        "Scattered spreadsheets and paper records",
+        "Time-consuming tax preparation",
+        "Limited visibility into property performance"
+      ]
+    }
+  },
+  "features": {
+    "title": "Here's what we'll do for you.",
+    "financial": {
+      "title": "Financial Tracking & Tax Reporting",
+      "description": "Comprehensive financial management with automatic categorization and one-click tax document generation."
+    },
+    "rent": {
+      "title": "Automated Rent Collection",
+      "description": "Set up automatic rent collection, late payment reminders, and direct bank deposits."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Property Management?",
+    "description": "Join other property owners who have simplified their management process with Properly."
+  },
+  "footer": {
+    "tagline": "Making property finance management simple, efficient, and profitable.",
+    "quickLinks": "Quick Links",
+    "links": [
+      {
+        "text": "Features",
+        "href": "#features"
+      },
+      {
+        "text": "Solutions",
+        "href": "#solutions"
+      },
+      {
+        "text": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "legal": "Legal",
+    "legalLinks": [
+      {
+        "text": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "text": "Terms of Service",
+        "href": "#"
+      }
+    ],
+    "contact": "Contact",
+    "location": "Kaunas, Lithuania",
+    "rights": "All rights reserved."
+  }
+} 

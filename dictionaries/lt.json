@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "pricing": "Kainos",
+    "faq": "DUK",
+    "login": "Prisijungti",
+    "signup": "Registruotis",
+    "features": "Funkcijos",
+    "solutions": "Sprendimai",
+    "contact": "Kontaktai"
+  },
+  "common": {
+    "switchLanguage": "Perjungti į anglų"
+  },
+  "hero": {
+    "title": "Valdykite nekilnojamo turto finansus per minutes, ne dienas.",
+    "description": "Jokių daugiau skaičiuoklių, rankinio buhalterijos tvarkymo ar mokesčių deklaravimo. Mes palengviname privatiems nuomotojams rinkti nuomą, automatizuoti buhalteriją ir supaprastinti mokesčių deklaravimą - visa tai vienoje galingoje platformoje.",
+    "imageAlt": "Valdymo skydelio peržiūra"
+  },
+  "problems": {
+    "title": "Problemos, su kuriomis susiduriate kasdien",
+    "subtitle": "Tai ne jūsų kaltė, tiesiog turite labai blogą nekilnojamojo turto finansų valdymo sistemą.",
+    "items": [
+      {
+        "title": "Nuomos Surinkimas",
+        "description": "Keliauti rinkti nuomos iš kiekvieno pastato ir nežinoti, kurie nuomininkai sumokėjo, yra laiko ir energijos švaistymas."
+      },
+      {
+        "title": "Finansinė Apskaita",
+        "description": "Kažkas sumokėjo į jūsų sąskaitą, surinkote grynuosius, dabar trūksta pinigų ir nežinote kodėl."
+      },
+      {
+        "title": "Mokesčių Deklaravimas",
+        "description": "Nevedėte tinkamos finansinės apskaitos ir dabar mokesčių deklaravimas tapo problema."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Properly skirtumas: darykite viską tinkamai",
+    "withProperly": {
+      "title": "Su Properly",
+      "items": [
+        "Automatizuotas nuomos surinkimas ir priminimai",
+        "Realaus laiko finansų sekimas ir ataskaitos",
+        "Vieno paspaudimo mokesčių dokumentų generavimas",
+        "Išmanūs analitikos įrankiai ir įžvalgos"
+      ]
+    },
+    "withoutProperly": {
+      "title": "Be Properly",
+      "items": [
+        "Rankinis nuomos sekimas ir vėluojančių mokėjimų priminimai",
+        "Išsibarsčiusios skaičiuoklės ir popieriniai įrašai",
+        "Daug laiko užimantis mokesčių ruošimas",
+        "Ribotas matomumas į turto veiklą"
+      ]
+    }
+  },
+  "features": {
+    "title": "Štai ką mes padarysime jums.",
+    "financial": {
+      "title": "Finansų Sekimas ir Mokesčių Ataskaitos",
+      "description": "Visapusiškas finansų valdymas su automatiniu kategorizavimu ir vieno paspaudimo mokesčių dokumentų generavimu."
+    },
+    "rent": {
+      "title": "Automatizuotas Nuomos Surinkimas",
+      "description": "Nustatykite automatinį nuomos surinkimą, vėluojančių mokėjimų priminimus ir tiesioginius banko pervedimus."
+    }
+  },
+  "cta": {
+    "title": "Pasiruošę transformuoti savo nekilnojamo turto valdymą?",
+    "description": "Prisijunkite prie kitų nekilnojamo turto savininkų, kurie supaprastino savo valdymo procesą su Properly."
+  },
+  "footer": {
+    "tagline": "Padarome nekilnojamo turto finansų valdymą paprastą, efektyvų ir pelningą.",
+    "quickLinks": "Greitos Nuorodos",
+    "links": [
+      {
+        "text": "Funkcijos",
+        "href": "#features"
+      },
+      {
+        "text": "Sprendimai",
+        "href": "#solutions"
+      },
+      {
+        "text": "Kainos",
+        "href": "#pricing"
+      },
+      {
+        "text": "Kontaktai",
+        "href": "#contact"
+      }
+    ],
+    "legal": "Teisinė Informacija",
+    "legalLinks": [
+      {
+        "text": "Privatumo Politika",
+        "href": "#"
+      },
+      {
+        "text": "Naudojimosi Sąlygos",
+        "href": "#"
+      }
+    ],
+    "contact": "Kontaktai",
+    "location": "Kaunas, Lietuva",
+    "rights": "Visos teisės saugomos."
+  }
+} 
